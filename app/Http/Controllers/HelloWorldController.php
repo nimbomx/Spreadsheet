@@ -27,9 +27,9 @@ class HelloWorldController extends Controller
 
     public function show(){
         $S = new ModelsSpreadsheet("Secondline.xlsx");
-        $S->GetContentByName("ASIGNACION (Shipping Window)");
-        $S->GetTitlesByName("CUADROS");
-        //$S->GetContent(0);
+        //$S->GetContentByName("ASIGNACION (Shipping Window)");
+        //$S->GetTitlesByName("CUADROS");
+        $S->GetContent(0);
         //$S->GetTitles(1);
         dd($S->Sheets());
         return $S->Sheets();
