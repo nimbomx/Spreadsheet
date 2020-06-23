@@ -2,8 +2,7 @@
 
 ## TODO
 - [x] Install UI/Auth
-- [] Install Sanctum
-- [] Require PhpSpreadsheet
+- [x] Require PhpSpreadsheet
 
 
 
